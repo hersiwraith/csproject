@@ -31,3 +31,13 @@
                     }
                 }
             }
+  //yes
+  if (App.settings.DarkMode)
+            {
+                App.helper.SetLightDark(App.settings.DarkMode);
+            }
+
+            if (!autoStarted)
+            {
+                window.Show();
+            }
