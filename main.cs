@@ -16,7 +16,7 @@
                 Mode.Colors.Add(item);
             }
 
-
+//good
 
        if (startArg != null && App.settings.AutoStart)
             {
